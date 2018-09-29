@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="300dp">
+
+    <TextView
+        android:id="@+id/tvD011"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#d8c1c1"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:text="Reputation Type - Change - Created At - Post Id"/>
+    <ListView
+        android:id="@+id/lvD011"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tvD011">
+    </ListView>
+
+</RelativeLayout>

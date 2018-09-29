@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:background="#ecc5c5">
+
+        <ImageView
+            android:id="@+id/imageViewA011"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#000000"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:descendantFocusability="blocksDescendants">
+            <TextView
+                android:id="@+id/tvNameA011"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:textSize="25dp"
+                android:textColor="#000000"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"/>
+            <CheckBox
+                android:id="@+id/cbA011"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_toRightOf="@id/tvNameA011"
+                android:checked="false"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/tvNameA011"
+                android:layout_centerHorizontal="true">
+                <TextView
+                    android:id="@+id/tvALA011"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Age, Location"
+                    android:textSize="18dp"/>
+                <TextView
+                    android:id="@+id/tvReputationA011"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Reputation: 3000dp"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+</RelativeLayout>
